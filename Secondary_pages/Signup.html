@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp</title>
+	<link rel="stylesheet" type="text/css" href="Signup.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+</head>
+<body>
+<header class="tm-header">
+	<div class="tm-container">
+		<a href="../index.html"><img src="../Pictures/bklogo.png" alt="logo" height="70px" width="170px" class="tm-logo"></a>
+	</div>
+</header>
+<div class="tm-content">
+	<h2>Sign up now</h2>
+	<div class="tm-main">
+		<div class="tm-fieldSet">		
+			<form>
+				<input type="email" name="mail" required="required" placeholder="Email"><br/>
+				<input type="password" name="pass" required="required" placeholder="Password"><br/>
+				<input type="password" name="pass2" required="required" placeholder="Confirm password"><br/>
+				<input type="text" name="username" required="required" placeholder="What should I call you?"><br/>
+				<label for="date">Date of birth:</label>
+				<input type="date" name="bday" required="required" id="date"><br/>
+				<input type="radio" name="gender" value="male" id="male">
+				<label for="male">Male</label>
+				<input type="radio" name="gender" value="female" id="female">
+				<label for="female">female</label>
+				<input type="radio" name="gender" value="other" id="other">
+				<label for="other">Non-Binary</label><br/>
+				<div class="news"><input type="checkbox" name="newsletter" checked="checked" id="news">
+				<label for="news">Sign me up for newsletter!</label></div><br/>
+				<input type="checkbox" name="accept" required="required" id="accept">
+				<label for="accept">I have read and I accept <a href="#">PowerBeats Terms & Conditions of use.</a></label><br/>
+				<input type="submit" name="submit" value="Sign Up"><br/>
+				<label for="login">Already have an account?</label>
+				<a href="Test.html" id="login">Log in</a>
+			</form>
+		</div>
+	</div>
+</div>
+<footer class="tm-footer"> 
+&copy;2018 Racem Aloui. All rights reserved.
+</footer>
+</body>
+</html>
